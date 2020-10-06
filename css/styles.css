@@ -6155,7 +6155,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #056912 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9865,7 +9865,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #e0e3e6 !important;
+}
+.text-mutedd {
+  color: #020e1a !important;
 }
 
 .text-black-50 {
@@ -10005,9 +10008,9 @@ html {
 }
 
 hr.divider {
-  max-width: 3.25rem;
-  border-width: 0.2rem;
-  border-color: #f4623a;
+  max-width: 3.36rem;
+  border-width: 0.3rem;
+  border-color: #f50e06;
 }
 
 hr.light {
@@ -10163,4 +10166,10 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+/* carrito hreft */
+.carrito {
+font-size: 30px;
+margin-right: 10px;
 }
