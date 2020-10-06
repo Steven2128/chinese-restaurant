@@ -5845,6 +5845,9 @@ a.close.disabled {
   content: "";
 }
 
+.carousel-inner, .carousel-inner > .item, .carousel-inner > .item > img {
+  height: 100%;
+}
 .carousel-item {
   position: relative;
   display: none;
@@ -10028,7 +10031,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 1rem 0;
 }
 
 #mainNav {
@@ -10144,7 +10147,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: #dc3545;
   transition: opacity 0.25s ease;
   text-align: center;
 }
