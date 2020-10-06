@@ -10011,15 +10011,9 @@ html {
 }
 
 hr.divider {
-<<<<<<< HEAD
-  max-width: 3.25rem;
-  border-width: 0.2rem;
-  border-color: #dc3545;
-=======
   max-width: 3.36rem;
   border-width: 0.3rem;
   border-color: #f50e06;
->>>>>>> footer
 }
 
 hr.light {
