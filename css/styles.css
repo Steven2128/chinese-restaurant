@@ -566,7 +566,11 @@ pre code {
     max-width: 1140px;
   }
 }
-
+@media handheld, only screen and (max-width: 767px) {
+  .logo{
+  display:none;
+  }
+  }
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
   padding-right: 15px;
@@ -3923,6 +3927,7 @@ input[type=button].btn-block {
 }
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  
 }
 .nav-tabs .nav-link {
   border: 1px solid transparent;
@@ -3999,7 +4004,8 @@ input[type=button].btn-block {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 0px;
+  margin-left: 2%;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -10164,3 +10170,9 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+.icon{
+  position: relative;
+  float: left;
+  cursor: url(pala.png);
+}
+
